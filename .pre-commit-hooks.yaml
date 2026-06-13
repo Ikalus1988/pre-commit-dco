@@ -1,0 +1,10 @@
+-   id: check-dco
+    name: Check Developer Certificate of Origin (DCO)
+    description: >
+        Verifies that the commit message contains a valid
+        ``Signed-off-by: Name <email>`` line per the
+        `Developer Certificate of Origin <https://developercertificate.org/>`__.
+    entry: check-dco
+    language: python
+    stages: [commit-msg]
+    minimum_pre_commit_version: 2.9.2
